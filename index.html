@@ -8,6 +8,10 @@
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/hello.css">
     <link rel="stylesheet" href="css/intro.css">
+    <link rel="stylesheet" href="css/skills.css">
+    <link rel="stylesheet" href="css/works.css">
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/contact.css">
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
     <script src="./js/scroll.js"></script>
 </head>
@@ -16,13 +20,17 @@
         <div class="header">
             <div class="header-nav" id="id-header-nav">
                 <ul>
-                    <li><a href="#" class="logo_alex"></a></li>
-                    <li><a href="#hello">ПРИВЕТ</a></li>
-                    <li><a href="#intro">ВВЕДЕНИЕ</a></li>
-                    <li><a href="#">НАВЫКИ</a></li>
-                    <li><a href="#">РАБОТЫ</a></li>
-                    <li><a href="#">О СЕБЕ</a></li>
-                    <li><a href="#contact">КОНТАКТЫ</a></li>
+                    <li class="logo_alex">
+                        <a href="https://github.com/gusssar">
+                        <!--<img src="./jpg/logo_386x52.jpg" alt="logo">-->
+                        </a>
+                    </li>
+                    <li class="head-link" id="id-header-nav-hello-1"><a href="#hello">ПРИВЕТ</a></li>
+                    <li class="head-link" id="id-header-nav-intro-1"><a href="#intro">ВВЕДЕНИЕ</a></li>
+                    <li class="head-link" id="id-header-nav-skills-1"><a href="#skills">НАВЫКИ</a></li>
+                    <li class="head-link" id="id-header-nav-works-1"><a href="#works">РАБОТЫ</a></li>
+                    <li class="head-link" id="id-header-nav-about-1"><a href="#about">О СЕБЕ</a></li>
+                    <li class="head-link" id="id-header-nav-contact-1"><a href="#contact">КОНТАКТЫ</a></li>
                 </ul>
             </div>
         </div>
@@ -43,8 +51,8 @@
                     </div>
                 </div>
 
-                <div class="content-intro">
-                    <div id="intro">
+                <div class="content-intro" id="intro">
+                    <!--<div >-->
                         <div>ЗДЕСЬ БУДЕТ ИНТРО</div>
                         <div class="logo">
                             <div class="wrapper">
@@ -290,12 +298,25 @@
                             </pre>
                             </div>
                         </div>
-                    </div>
+                    <!--</div>-->
                 </div>
 
+                <div class="content-skills" id="skills">
+                    <div >
+                        <div>Здесь будут навыки</div>
+                    </div>
+                </div>
+                <div class="content-works" id="works">
+                    <div>Здесь будут работы</div>
+                </div>
+                <div class="content-about" id="about">
+                    <div>Здесь будет о себе</div>
+                </div>
+                <div class="content-contact" id="contact">
+                    <div>Здесь будут контакты</div>
+                </div>
 
             </div>
-            <div id="contact">2</div>
         </div>
         <div class="footer"></div>
     </div>

@@ -4,11 +4,11 @@
     position: relative;
     text-align: center;
 //vertical-align: middle;
-    height: 90vh;
+    height: 100vh;
 }
 
 #intro{
-    margin: 10vh 0;
+    padding: 10vh 0;
 }
 /* ПОНЕСЛОСЬ**/
 

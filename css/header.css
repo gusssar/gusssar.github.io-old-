@@ -7,7 +7,8 @@
 .header-nav{
     max-width: 1366px;
     margin: 0 auto;
-    background: #364a40;
+    background: #004f50;
+    //background: #72428b;
 }
 .header-nav ul{
     margin: 0;
@@ -17,18 +18,20 @@
     display: inline-block;
     width: 14.19%;
     margin-right: -5px;
-    padding: 15px 0;
+    //padding: 15px 0;
     text-align: center;
-
 }
+
 .header-nav a{
     font-size: 18px;
     color: #ecf7fa;
     text-decoration: none;
-    padding: 10px 0;
+    padding: 20px 45px;
 }
-
-.header-nav li:hover{
+.head-link{
+    padding: 15px 0;
+}
+.head-link:hover{
     background: #3b3b4a;
 }
 
@@ -39,12 +42,21 @@
     height: 0px;
 }
 /**доработать лого*/
-.logo_alex {
-    background-image: url('../jpg/logo_386x52.jpg');
-    background-position: 0 0;
+
+.logo_alex{
+    height: 52px;
+    margin: 0px 0 -20px;
+}
+
+.logo_alex a{
+    position: relative;
+    //background-image: url('../jpg/logo_386x52.jpg');
+    //background-position: 0 0;
+    background: url("../jpg/logo_386x52.jpg") no-repeat 0 0;
     //width: 193px;
-    //height: 52px;
-    //display: block;
+    height: 52px;
+    margin: 0px 0 -20px;
+    display: block;
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
     -ms-transition: all 0.5s ease;
@@ -52,8 +64,9 @@
     transition: all 0.5s ease;
 }
 
-.logo_alex:hover {
-    background-position: 193px 0;
+.logo_alex a:hover {
+    background-position: -193px 0;
+    //background-position: 0 193px;
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
     -ms-transition: all 0.5s ease;
