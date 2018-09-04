@@ -13,7 +13,13 @@
     <link rel="stylesheet" href="css/about.css">
     <link rel="stylesheet" href="css/contact.css">
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+    <!--<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.bundle.js"></script>-->
+    <!--<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.bundle.min.js"></script>-->
+    <!--<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.js"></script>-->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.min.js"></script>
+    <!--<script type="text/javascript" src="./node_modules/chart.js/src/chart.js"></script>-->
     <script src="./js/scroll.js"></script>
+    <script src="./js/skills.js"></script>
 </head>
 <body>
     <div class="root">
@@ -25,12 +31,12 @@
                         <!--<img src="./jpg/logo_386x52.jpg" alt="logo">-->
                         </a>
                     </li>
-                    <li class="head-link" id="id-header-nav-hello-1"><a href="#hello">ПРИВЕТ</a></li>
-                    <li class="head-link" id="id-header-nav-intro-1"><a href="#intro">ВВЕДЕНИЕ</a></li>
-                    <li class="head-link" id="id-header-nav-skills-1"><a href="#skills">НАВЫКИ</a></li>
-                    <li class="head-link" id="id-header-nav-works-1"><a href="#works">РАБОТЫ</a></li>
-                    <li class="head-link" id="id-header-nav-about-1"><a href="#about">О СЕБЕ</a></li>
-                    <li class="head-link" id="id-header-nav-contact-1"><a href="#contact">КОНТАКТЫ</a></li>
+                    <li class="head-link" id="id-nav-hello-1"><a href="#hello">ПРИВЕТ</a></li>
+                    <li class="head-link" id="id-nav-intro-1"><a href="#intro">ВВЕДЕНИЕ</a></li>
+                    <li class="head-link" id="id-nav-skills-1"><a href="#skills">НАВЫКИ</a></li>
+                    <li class="head-link" id="id-nav-works-1"><a href="#works">РАБОТЫ</a></li>
+                    <li class="head-link" id="id-nav-about-1"><a href="#about">О СЕБЕ</a></li>
+                    <li class="head-link" id="id-nav-contact-1"><a href="#contact">КОНТАКТЫ</a></li>
                 </ul>
             </div>
         </div>
@@ -46,7 +52,7 @@
                         <div>Я ФОКУСИРУЮСЬ НА ГАРМОНИЧНОМ СОЧЕТАНИИ</div>
                         <div>ДИЗАЙНА И КОДА</div>
                     </div>
-                    <div class="content-hello-to-intro" id="id-content-hello-to-intro">
+                    <div class="content-hello-to-intro" id="id-nav-intro-2">
                         <a href="#intro">ВВЕДЕНИЕ</a>
                     </div>
                 </div>
@@ -298,12 +304,49 @@
                             </pre>
                             </div>
                         </div>
-                    <!--</div>-->
+                    <div class="content-intro-to-skills" id="id-nav-skills-2">
+                        <a href="#skills">НАВЫКИ</a>
+                    </div>
                 </div>
 
                 <div class="content-skills" id="skills">
-                    <div >
-                        <div>Здесь будут навыки</div>
+                    <div class="skills-body skills-canvas">
+                        <div></div>
+                        <canvas id="myChart" ></canvas>
+                    </div>
+                    <div class="skills-body skills-info">
+                        <pre>
+[
+    {
+        "name": "HTML",
+        "value": 10
+    },
+    {
+        "name": "CSS",
+        "value": 9
+    },
+    {
+        "name": "jQuery",
+        "value": 3
+    },
+    {
+        "name": "Node.js",
+        "value": 4
+    },
+    {
+        "name": "JavaScript",
+        "value": 5
+    },
+    {
+        "name": "Android",
+        "value": 8
+    }
+]
+
+                        </pre>
+                    </div>
+                    <div class="content-skills-to-works" id="id-nav-works-2">
+                        <a href="#works">РАБОТЫ</a>
                     </div>
                 </div>
                 <div class="content-works" id="works">

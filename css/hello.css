@@ -36,11 +36,12 @@
 .content-hello-to-intro{
     position: absolute;
     bottom: 3vh;
-    right: 10vh;
-    //height: 10vh;
+    margin: 0 auto;
+    right: 0;
+    left: 0;
 }
 .content-hello-to-intro a{
     text-decoration: none;
     color: antiquewhite;
-    //height: 10vh;
+    padding: 20px 10px;
 }
