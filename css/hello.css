@@ -1,0 +1,46 @@
+/*ПРИВЕТ*/
+.content-hello{
+    position: relative;
+    text-align: center;
+
+    height: 100vh;
+}
+
+#hello{
+//margin: 10vh 0;
+    padding: 20vh 0;
+}
+#hello div:first-child{
+    font-size: 100px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+#hello div:nth-child(2){
+    font-size: 34px;
+    padding: 5px;
+}
+#hello div:nth-child(3){
+    font-size: 37px;
+    padding: 5px;
+    font-weight: bold;
+}
+#hello div:nth-child(4){
+    font-size: 15.5px;
+    padding: 5px;
+}
+#hello div:last-child{
+    font-size: 42px;
+    padding: 5px;
+}
+.content-hello-to-intro{
+    position: absolute;
+    bottom: 3vh;
+    right: 10vh;
+    //height: 10vh;
+}
+.content-hello-to-intro a{
+    text-decoration: none;
+    color: antiquewhite;
+    //height: 10vh;
+}

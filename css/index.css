@@ -1,0 +1,33 @@
+html,
+body,
+.root{
+    //height: 100%;
+    //width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family:'Gotham-ExtraLight',Sans-Serif;
+}
+.root{
+    background: #364a40;
+    //max-width: 1366px;
+}
+
+.content{
+    //padding-top: 70px;
+    position: relative;
+    //top: 52px;
+
+}
+.content-body{
+    max-width: 1364px;
+    margin: 0 auto;
+    //padding-top: 70px;
+    //border: 1px solid blue;
+    text-align: center;
+}
+
+
+
+
+/**ВВЕДЕНИЕ*/
+

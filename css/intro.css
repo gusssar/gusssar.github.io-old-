@@ -1,0 +1,264 @@
+/**ВВЕДЕНИЕ*/
+
+.content-intro{
+    position: relative;
+    text-align: center;
+//vertical-align: middle;
+    height: 90vh;
+}
+
+#intro{
+    margin: 10vh 0;
+}
+/* ПОНЕСЛОСЬ**/
+
+.logo {
+    background:url("../jpg/desk-apple-table.jpg") 0 no-repeat;
+    cursor:pointer;
+    width:660px;
+    height:440px;
+    position:absolute;
+    top:100px;
+    left:0;
+}
+
+.wrapper {
+    font-size:14px;
+    line-height:40px;
+    position:absolute;
+    top:130px;
+    left:315px;
+    height:40px;
+    width:40px;
+    -webkit-transform-style: preserve-3d;
+    -webkit-transform-origin:50%;
+    -webkit-animation-name: ciycle;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-duration: 12s;
+}
+
+.boxes {
+     position:absolute;
+     top:0;
+     left:0;
+     -webkit-transition: all 1s ease-in-out;
+ }
+
+.va {
+    background: #363636;
+    color:#fff;
+    border-radius:50px;
+    position:absolute;
+    top:-50px;
+    left:0;
+    height:40px;
+    width:40px;
+    text-align:center;
+    -webkit-box-shadow: rgba(0,0,0,0.08) 1px 1px 2px 3px;
+    -webkit-transition:all 0.8s ease-in-out;
+    -webkit-animation-name: ciycle2;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-duration: 1.4s;
+}
+
+.tags {
+    position:absolute;
+    top:230px;
+    left:315px;
+    text-align:center;
+    color: white;
+    line-height:40px;
+    height:50px;
+    width:50px;
+    opacity:0;
+    -webkit-transition: all .5s ease-out;
+    -webkit-transition-delay: 0.30s;
+}
+
+.tag {
+    position:absolute;
+    top:0;
+    left:0;
+    opacity:0;
+    -webkit-animation-name: tag;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-duration: 2.5s;
+}
+
+.tag:nth-child(1) {
+    -webkit-animation-delay:0s;
+}
+
+.tag:nth-child(2) {
+    -webkit-animation-delay:.5s;
+}
+
+.tag:nth-child(3) {
+    -webkit-animation-delay:1s;
+}
+
+.tag:nth-child(4) {
+    -webkit-animation-delay:1.5s;
+}
+
+.tag:nth-child(5) {
+    -webkit-animation-delay:2s;
+}
+
+
+.one,
+.two,
+.three,
+.four,
+.five,
+.six{
+    border-radius:2px;
+    position:absolute;
+    top:0;
+    left:0;
+    width:40px;
+    height:40px;
+    opacity:0.50;
+    line-height:40px;
+    text-align:center;
+    color:#fff;
+    -webkit-transition: all 1s ease-in-out;
+}
+
+.one {
+    background: #000000;
+    -webkit-transform:translateZ(20px);
+}
+
+.two {
+    background: #a30000;
+    -webkit-transform: rotateX(90deg) translateY(0) translateZ(-20px);
+}
+
+.three {
+    background:blue;
+    -webkit-transform: translateY(0) translateZ(-20px);
+}
+.four {
+    background:green;
+    -webkit-transform: rotateX(90deg) translateY(0) translateZ(20px);
+}
+.five {
+    background:darkblue;
+    -webkit-transform: rotateY(-90deg) translateX(0) translateY(0) translateZ(20px);
+}
+.six {
+    background:purple;
+    -webkit-transform: rotateY(90deg) translateX(0) translateZ(20px) translateY(0);
+}
+
+.logo:hover .box {
+    background:gray;
+    opacity:0.25;
+}
+.logo:hover .one{
+    -webkit-transform: rotateX(90deg) translateZ(20px) translateY(40px);
+    -webkit-transform-origin: 100%;
+}
+.logo:hover .two{
+    -webkit-transform: rotateX(90deg) translateY(0) translateZ(20px);
+    opacity:1;
+}
+.logo:hover .three {
+    -webkit-transform: rotateX(-90deg) translateY(40px) translateZ(-20px);
+}
+.logo:hover .five {
+    -webkit-transform: rotateZ(90deg) rotateY(-90deg) translateX(0) translateY(40px) translateZ(20px);
+}
+.logo:hover .six{
+    -webkit-transform: rotateY(90deg) translateX(20px) translateZ(20px) translateY(-20px) rotateX(90deg);
+    -webkit-transform-origin: 100%;
+}
+
+.logo:hover .boxes {
+    top:40px;
+}
+
+.logo:hover .va {
+    top:-105px;
+}
+.logo:hover .tags {
+    -webkit-transform-style: preserve-3d;
+    -webkit-transform-origin:50%;
+    -webkit-transform:  rotateX(-200deg) rotateY(-180deg) rotateZ(-180deg);
+    top:130px;
+    left:315px;
+    opacity:1;
+}
+
+@-webkit-keyframes ciycle {
+    from {
+        -webkit-transform: rotateX(-25deg) rotateY(0deg);
+    }
+    to {
+        -webkit-transform: rotateX(-25deg) rotateY(360deg);
+    }
+}
+
+@-webkit-keyframes ciycle2 {
+    from {
+        -webkit-transform: rotateY(0deg);
+    }
+    to {
+        -webkit-transform: rotateY(-360deg);
+    }
+}
+
+@-webkit-keyframes ciycle3 {
+    from {
+        -webkit-transform:rotateY(180deg) translateZ(1px);
+    }
+    to {
+        -webkit-transform:rotateY(-180deg) translateZ(1px);
+    }
+}
+
+@-webkit-keyframes tag {
+    0%{
+        opacity:1;
+    }
+    100% {
+        opacity:0;
+        top:-70px;
+    }
+}
+
+
+/**КОДИК*/
+.code{
+    position: relative;
+    float: right;
+    width: 620px;
+    height: 600px;
+    //top: 89px;
+    border: 1px solid crimson;
+    font-family: "Fira Code";
+    color: #01ab00;
+    background: rgba(33, 22, 46, 0.78);
+    font-size: 14px;
+    text-align: left;
+    padding: 10px;
+    overflow: hidden;
+}
+.code-body{
+    position: relative;
+}
+.code:hover .code-body{
+    cursor: text;
+    //-webkit-animation: anim 15s linear 0s 1;
+    -webkit-animation: anim 15s ease 0s 1;
+}
+
+@-webkit-keyframes anim {
+    0%{top:0px;opacity:1}
+    100%{top:-3150px;opacity:1}
+}
+
