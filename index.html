@@ -13,13 +13,10 @@
     <link rel="stylesheet" href="css/about.css">
     <link rel="stylesheet" href="css/contact.css">
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
-    <!--<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.bundle.js"></script>-->
-    <!--<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.bundle.min.js"></script>-->
-    <!--<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.js"></script>-->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.min.js"></script>
-    <!--<script type="text/javascript" src="./node_modules/chart.js/src/chart.js"></script>-->
     <script src="./js/scroll.js"></script>
     <script src="./js/skills.js"></script>
+    <script src="js/slides.js" ></script>
 </head>
 <body>
     <div class="root">
@@ -28,7 +25,6 @@
                 <ul>
                     <li class="logo_alex">
                         <a href="https://github.com/gusssar">
-                        <!--<img src="./jpg/logo_386x52.jpg" alt="logo">-->
                         </a>
                     </li>
                     <li class="head-link" id="id-nav-hello-1"><a href="#hello">ПРИВЕТ</a></li>
@@ -58,7 +54,6 @@
                 </div>
 
                 <div class="content-intro" id="intro">
-                    <!--<div >-->
                         <div>ЗДЕСЬ БУДЕТ ИНТРО</div>
                         <div class="logo">
                             <div class="wrapper">
@@ -331,15 +326,15 @@
     },
     {
         "name": "Node.js",
-        "value": 4
+        "value": 6
     },
     {
         "name": "JavaScript",
         "value": 5
     },
     {
-        "name": "Android",
-        "value": 8
+        "name": "SQL",
+        "value": 4
     }
 ]
 
@@ -350,7 +345,29 @@
                     </div>
                 </div>
                 <div class="content-works" id="works">
-                    <div>Здесь будут работы</div>
+                    <div class="row wrap">
+                        <div class="slides_thumbs">
+                            <div class="slide_imgs">
+                                <a href="img/png/yandex_home.png">
+                                    <img alt="Яндекс.Дом"
+                                         data-path="http://www.google.com"
+                                         src="img/png/yandex_home.png"
+                                         title="Макет страницы &quotЯндекс.Дом&quot"></a>
+                                <a href="img/png/secret_page.png">
+                                    <img alt="Личный проект"
+                                         src="img/png/secret_page.png"
+                                         title='Постоянный личный проект, который я делаю в свое свободное время.'></a>
+                                <a href="img/png/next_page.png">
+                                    <img alt="Дальше жарче"
+                                         src="img/png/next_page.png"
+                                         title='Может я Вам смогу помочь с проектом, обязательно связитесь со мной'></a>
+                            </div>
+                        </div>
+                    </div>
+                    <script>$("div.slides_thumbs").slides({thumbs: "on"});</script>
+                    <div class="content-works-to-about" id="id-nav-about-2">
+                        <a href="#about">О СЕБЕ</a>
+                    </div>
                 </div>
                 <div class="content-about" id="about">
                     <div>Здесь будет о себе</div>
