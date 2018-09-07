@@ -2474,6 +2474,7 @@
 
   to {
     -webkit-transform-origin: left bottom;
+    -
     transform-origin: left bottom;
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
