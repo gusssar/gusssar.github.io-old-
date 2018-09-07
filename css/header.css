@@ -26,10 +26,12 @@
 }
 
 .header-nav a{
-    font-size: 18px;
+    /*font-size: 18px;*/
+    font-size: 1.3vw;
     color: #ecf7fa;
     text-decoration: none;
-    padding: 20px 45px;
+    //padding: 20px 45px;
+    padding: 20px 10px;
 }
 .head-link{
     padding: 15px 0;
@@ -42,13 +44,13 @@
     width: 100%;
     position: relative;
     top: 0;
-    height: 0px;
+    height: 0;
 }
 /**доработать лого*/
 
 .logo_alex{
     height: 52px;
-    margin: 0px 0 -20px;
+    margin: 0 0 -20px;
 }
 
 .logo_alex a{

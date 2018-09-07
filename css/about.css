@@ -12,7 +12,7 @@
 
 .about-inline h1{
     font-family: "Gotham-ExtraLight";
-    font-size: 3vh;
+    font-size: 2.5vh;
 }
 .about-inline h2{
     font-family: "Gotham-ExtraLight";
@@ -28,8 +28,9 @@
     text-align: left;
     position: relative;
     float: left;
-    width: 15%;
+    width: 20%;
     height: 90%;
+    margin-right: -10%;
 }
 .about-love h1,
 .about-love h2{
@@ -47,8 +48,9 @@
     text-align: right;
     position: relative;
     float: right;
-    width: 15%;
+    width: 20%;
     height: 90%;
+    margin-left: -10%;
 }
  .about-hate h1,
  .about-hate h2{
@@ -60,3 +62,17 @@ table{
     height: 95%;
     //border: 1px solid crimson;
 }
+
+.content-about-to-contact{
+    position: absolute;
+    bottom: 3vh;
+    margin: 0 auto;
+    right: 0;
+    left: 0;
+}
+.content-about-to-contact a{
+    text-decoration: none;
+    color: antiquewhite;
+    padding: 20px 10px;
+}
+

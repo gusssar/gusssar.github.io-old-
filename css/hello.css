@@ -11,26 +11,31 @@
     padding: 20vh 0;
 }
 #hello div:first-child{
-    font-size: 100px;
+    //font-size: 100px;
+    font-size: 6.3vw;
     padding: 10px;
     font-weight: bold;
 }
 
 #hello div:nth-child(2){
-    font-size: 34px;
+    //font-size: 34px;
+    font-size: 2.15vw;
     padding: 5px;
 }
 #hello div:nth-child(3){
-    font-size: 37px;
+    //font-size: 37px;
+    font-size: 2.33vw;
     padding: 5px;
     font-weight: bold;
 }
 #hello div:nth-child(4){
-    font-size: 15.5px;
+    //font-size: 15.5px;
+    font-size: 0.97vw;
     padding: 5px;
 }
 #hello div:last-child{
-    font-size: 42px;
+    //font-size: 42px;
+    font-size: 2.7vw;
     padding: 5px;
 }
 .content-hello-to-intro{

@@ -74,25 +74,8 @@ var chart = AmCharts.makeChart("chartdiv", {
     },
     "chartCursor": {
         "enabled":false,
-        "valueBalloonsEnabled": false
+        "valueBalloonsEnabled": true
     },
-    // "allLabels": [
-    //     {
-    //     "text": "Что я люблю",
-    //     "color": "#52ac62",
-    //     "x": "5%",
-    //     "y": "0",
-    //     "bold": true,
-    //     "align": "left"
-    // },
-    // {
-    //     "text": "Что я ненавижу",
-    //     "color": "#be4e45",
-    //     "x": "98%",
-    //     "y": "0",
-    //     "bold": true,
-    //     "align": "right"
-    // }],
     "export": {
         "enabled": false
     }

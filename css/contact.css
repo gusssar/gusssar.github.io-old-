@@ -4,3 +4,119 @@
     height: 90vh;
     padding: 10vh 0 0;
 }
+
+.contact-body{
+    position: relative;
+    width: 40%;
+    height: 60%;
+    //border: 1px solid crimson;
+    margin: 10vh auto 0;
+}
+
+.mail {
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    width: 40%;
+    height: 40%;
+    animation: 5s linear 0s normal none infinite running mail;
+}
+
+@keyframes mail {
+    0% {
+        transform: rotate(0deg) translate(0,0) scale(1);
+    }
+    25%{
+        transform: rotate(30deg)  scale(0.9);
+    }
+    50%{
+        transform: rotate(0deg) translate(0,0)  scale(1);
+    }
+    75%{
+        transform: rotate(-30deg)  scale(0.9);
+    }
+    100% {
+        transform: rotate(0deg) translate(0,0)  scale(1);
+    }
+
+}
+.fb,
+.gh,
+.gh,
+.st,
+.tw,
+.vk{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    width: 20%;
+    height: 20%;
+}
+
+.fb{
+    animation: 10s linear 2s normal none infinite running fb;
+}
+
+
+@keyframes fb {
+    from { transform: rotate(0deg) translateX(200%) rotate(0deg); }
+    /*25%{transform: rotate(90deg) translateX(200%) rotate(-90deg);}*/
+    /*50%{transform: rotate(180deg) translateX(300%) rotate(-180deg);}*/
+    /*75%{transform: rotate(270deg) translateX(200%) rotate(-270deg);}*/
+    to   { transform: rotate(360deg) translateX(200%) rotate(-360deg); }
+}
+
+.gh{
+    animation: 10s linear 4s normal none infinite running fb;
+}
+/*@keyframes gh {*/
+    /*from { transform: rotate(72deg) translateX(200%) rotate(-72deg); }*/
+    /*to   { transform: rotate(432deg) translateX(200%) rotate(-432deg); }*/
+/*}*/
+.st{
+    animation: 10s linear 6s normal none infinite running fb;
+}
+/*@keyframes st {*/
+    /*from { transform: rotate(144deg) translateX(200%) rotate(-144deg); }*/
+    /*to   { transform: rotate(504deg) translateX(200%) rotate(-504deg); }*/
+/*}*/
+
+.tw{
+    animation: 10s linear 8s normal none infinite running fb;
+}
+/*@keyframes tw {*/
+    /*from { transform: rotate(216deg) translateX(200%) rotate(-216deg); }*/
+    /*to   { transform: rotate(576deg) translateX(200%) rotate(-576deg); }*/
+/*}*/
+
+.vk{
+    animation: 10s linear 10s normal none infinite running fb;
+}
+/*@keyframes vk {*/
+    /*from { transform: rotate(288deg) translateX(200%) rotate(-288deg); }*/
+    /*to   { transform: rotate(648deg) translateX(200%) rotate(-648deg); }*/
+/*}*/
+
+
+.contact-body:hover .mail,
+.contact-body:hover .fb,
+.contact-body:hover .gh,
+.contact-body:hover .st,
+.contact-body:hover .tw,
+.contact-body:hover .vk{
+    animation-play-state: paused;
+}
+
+
+.content-contact-to-hello{
+    position: absolute;
+    bottom: 3vh;
+    margin: 0 auto;
+    right: 0;
+    left: 0;
+}
+.content-contact-to-hello a{
+    text-decoration: none;
+    color: antiquewhite;
+    padding: 20px 10px;
+}

@@ -51,7 +51,7 @@
     padding:20px;
     cursor:pointer;
     background: white;
-    opacity: .05;
+    opacity: 0;
     top:10%;
     left: 150px;
     text-decoration:none;
@@ -65,7 +65,7 @@
     padding:20px;
     cursor:pointer;
     background: white;
-    opacity: .05;
+    opacity: 0;
     top:10%;
     text-decoration:none;
     font-size:1.5em;
