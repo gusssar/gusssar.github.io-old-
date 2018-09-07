@@ -8,6 +8,7 @@
 }
 .header-nav{
     max-width: 1366px;
+    min-width: 910px;
     margin: 0 auto;
     background: #004f50;
     //background: #72428b;
@@ -27,11 +28,16 @@
 
 .header-nav a{
     /*font-size: 18px;*/
-    font-size: 1.3vw;
+    //font-size: 1.3vw;
+    font-size: 100%;
+    max-font-size: 18px;
     color: #ecf7fa;
     text-decoration: none;
     //padding: 20px 45px;
     padding: 20px 10px;
+}
+.header-nav a:first-child{
+    padding: 0;
 }
 .head-link{
     padding: 15px 0;
@@ -58,7 +64,7 @@
     //background-image: url('../jpg/logo_386x52.jpg');
     //background-position: 0 0;
     background: url("../img/jpg/logo_386x52.jpg") no-repeat 0 0;
-    //width: 193px;
+    width: 193px;
     height: 52px;
     margin: 0px 0 -20px;
     display: block;

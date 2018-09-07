@@ -6,11 +6,7 @@ body,
     margin: 0;
     padding: 0;
     font-family:'Gotham-ExtraLight',Sans-Serif;
-
-}
-.root{
     background: #004f50;
-    //max-width: 1366px;
 }
 
 .content{
@@ -21,14 +17,16 @@ body,
 }
 .content-body{
     max-width: 1364px;
+    min-width: 910px;
     margin: 0 auto;
     //padding-top: 70px;
     //border: 1px solid blue;
     text-align: center;
 }
 
-
-
-
-/**ВВЕДЕНИЕ*/
-
+.invisible{
+    opacity:0;
+}
+.visible{
+    opacity:1;
+}

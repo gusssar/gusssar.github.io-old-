@@ -12,11 +12,16 @@
     <link rel="stylesheet" href="css/works.css">
     <link rel="stylesheet" href="css/about.css">
     <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/contact-anim.css">
+    <link rel="stylesheet" href="css/animate.css">
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.min.js"></script>
-
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="./js/jquery.viewportchecker.js"></script>
     <!--<script src="https://www.amcharts.com/lib/3/amcharts.js"></script>-->
+
     <script src="./js/amcharts.js"></script>
+
     <!--<script src="https://www.amcharts.com/lib/3/serial.js"></script>-->
     <script src="./js/serial.js"></script>
     <!--<script src="https://www.amcharts.com/lib/3/plugins/export/export.min.js"></script>-->
@@ -25,9 +30,21 @@
     <script src="./js/alex_theme.js"></script>
 
     <script src="./js/scroll.js"></script>
-    <script src="./js/skills.js"></script>
+
+    <!--<script src="./js/skills.js"></script>-->
+
     <script src="./js/slides.js"></script>
-    <script src="./js/about.js"></script>
+    <!--<script src="./js/about.js"></script>-->
+    <script src="./js/view-plugin.js"></script>
+    <!--<script>-->
+        <!--$(document).ready(function(){-->
+            <!--$('.content-about').viewportChecker({-->
+                <!--classToAdd: 'visible', // Class to add to the elements when they are visible,-->
+                <!--classToRemove: 'invisible', // Class to remove before adding 'classToAdd' to the elements-->
+                <!--offset: 1000-->
+            <!--});-->
+        <!--});-->
+    <!--</script>-->
 </head>
 <body>
     <div class="root">
@@ -51,7 +68,7 @@
         <div class="content">
 
             <div class="content-body">
-                <div class="content-hello">
+                <div class="content-hello content-view invisibl">
                     <div id="hello">
                         <div>ПРИВЕТ</div>
                         <div>МЕНЯ ЗОВУТ АЛЕКСЕЙ</div>
@@ -64,8 +81,8 @@
                     </div>
                 </div>
 
-                <div class="content-intro" id="intro">
-                        <div>ЗДЕСЬ БУДЕТ ИНТРО</div>
+                <div class="content-intro content-view invisible" id="intro">
+                        <!--<div>ЗДЕСЬ БУДЕТ ИНТРО</div>-->
                         <div class="logo">
                             <div class="wrapper">
                                 <div class="va">A.A</div>
@@ -315,7 +332,7 @@
                     </div>
                 </div>
 
-                <div class="content-skills" id="skills">
+                <div class="content-skills content-view-3 invisible" id="skills">
                     <div class="skills-body skills-canvas">
                         <div></div>
                         <canvas id="myChart" ></canvas>
@@ -355,7 +372,7 @@
                         <a href="#works">РАБОТЫ</a>
                     </div>
                 </div>
-                <div class="content-works" id="works">
+                <div class="content-works content-view invisible" id="works">
                     <div class="row wrap">
                         <div class="slides_thumbs">
                             <div class="slide_imgs">
@@ -380,7 +397,7 @@
                         <a href="#about">О СЕБЕ</a>
                     </div>
                 </div>
-                <div class="content-about" id="about">
+                <div class="content-about content-view-2 invisible" id="about">
                     <!--<div>Здесь будет о себе</div>-->
                     <div class="about-inline about-love">
                         <h1>Что я люблю</h1>
@@ -459,7 +476,7 @@
                         <a href="#contact">КОНТАКТЫ</a>
                     </div>
                 </div>
-                <div class="content-contact" id="contact">
+                <div class="content-contact content-view invisible" id="contact">
                     <!--<div>Здесь будут контакты</div>-->
 
                     <div class="contact-body">
