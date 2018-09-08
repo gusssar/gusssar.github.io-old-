@@ -5,7 +5,7 @@ $(function() {
         data: {
             labels: ["HTML", "CSS", "JQuery", "Node.js", "JavaScript", "SQL"],
             datasets: [{
-                data: [10, 9, 3, 6, 5, 4],
+                data: [10, 9, 5, 6, 5, 4],
                 backgroundColor: [
                     'rgba(255, 99, 132, 0.6)',
                     'rgba(54, 162, 235, 0.6)',

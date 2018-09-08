@@ -19,33 +19,12 @@
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.min.js"></script>
     <script src="http://code.jquery.com/jquery.js"></script>
     <script src="./js/jquery.viewportchecker.js"></script>
-    <!--<script src="https://www.amcharts.com/lib/3/amcharts.js"></script>-->
-
     <script src="./js/amcharts.js"></script>
-
-    <!--<script src="https://www.amcharts.com/lib/3/serial.js"></script>-->
     <script src="./js/serial.js"></script>
-    <!--<script src="https://www.amcharts.com/lib/3/plugins/export/export.min.js"></script>-->
-    <!--<link rel="stylesheet" href="https://www.amcharts.com/lib/3/plugins/export/export.css" type="text/css" media="all" />-->
-    <!--<script src="https://www.amcharts.com/lib/3/themes/light.js"></script>-->
     <script src="./js/alex_theme.js"></script>
-
     <script src="./js/scroll.js"></script>
-
-    <!--<script src="./js/skills.js"></script>-->
-
     <script src="./js/slides.js"></script>
-    <!--<script src="./js/about.js"></script>-->
     <script src="./js/view-plugin.js"></script>
-    <!--<script>-->
-        <!--$(document).ready(function(){-->
-            <!--$('.content-about').viewportChecker({-->
-                <!--classToAdd: 'visible', // Class to add to the elements when they are visible,-->
-                <!--classToRemove: 'invisible', // Class to remove before adding 'classToAdd' to the elements-->
-                <!--offset: 1000-->
-            <!--});-->
-        <!--});-->
-    <!--</script>-->
 </head>
 <body>
     <div class="root">
@@ -67,7 +46,6 @@
         </div>
         <div class="fake-header"></div>
         <div class="content">
-
             <div class="content-body">
                 <div class="content-hello content-view invisibl">
                     <div id="hello">
@@ -83,7 +61,6 @@
                 </div>
 
                 <div class="content-intro content-view invisible" id="intro">
-                        <!--<div>ЗДЕСЬ БУДЕТ ИНТРО</div>-->
                         <div class="logo intro-line">
                             <div class="wrapper">
                                 <div class="aa">A.A</div>
@@ -108,23 +85,22 @@
                             <div class="code-body">
                             <pre>
 .logo {
-    background:url("../jpg/desk-apple-table.jpg") 0 no-repeat;
     cursor:pointer;
-    width:660px;
-    height:440px;
-    position:absolute;
-    top:100px;
-    left:0;
+    width:40vw;
+    height:49vh;
+    position:relative;
+    float: left;
+    left:10vh;.
+    z-index: 2;
 }
-
 .wrapper {
-    font-size:14px;
-    line-height:40px;
+    font-size:40px;
+    line-height:140px;
     position:absolute;
-    top:130px;
+    top:230px;
     left:315px;
-    height:40px;
-    width:40px;
+    height:140px;
+    width:140px;
     -webkit-transform-style: preserve-3d;
     -webkit-transform-origin:50%;
     -webkit-animation-name: ciycle;
@@ -132,23 +108,21 @@
     -webkit-animation-timing-function: linear;
     -webkit-animation-duration: 12s;
 }
-
 .boxes {
      position:absolute;
      top:0;
      left:0;
      -webkit-transition: all 1s ease-in-out;
  }
-
-.va {
+.aa {
     background: #363636;
     color:#fff;
-    border-radius:50px;
+    border-radius:80px;
     position:absolute;
-    top:-50px;
+    top:-200px;
     left:0;
-    height:40px;
-    width:40px;
+    height:140px;
+    width:140px;
     text-align:center;
     -webkit-box-shadow: rgba(0,0,0,0.08) 1px 1px 2px 3px;
     -webkit-transition:all 0.8s ease-in-out;
@@ -157,21 +131,20 @@
     -webkit-animation-timing-function: linear;
     -webkit-animation-duration: 1.4s;
 }
-
 .tags {
     position:absolute;
     top:230px;
     left:315px;
     text-align:center;
     color: white;
-    line-height:40px;
-    height:50px;
-    width:50px;
+    font-size: 25px;
+    line-height:160px;
+    height:100px;
+    width:100px;
     opacity:0;
     -webkit-transition: all .5s ease-out;
     -webkit-transition-delay: 0.30s;
 }
-
 .tag {
     position:absolute;
     top:0;
@@ -182,28 +155,21 @@
     -webkit-animation-timing-function: linear;
     -webkit-animation-duration: 2.5s;
 }
-
 .tag:nth-child(1) {
-    -webkit-animation-delay:0;
+    -webkit-animation-delay:0s;
 }
-
 .tag:nth-child(2) {
     -webkit-animation-delay:.5s;
 }
-
 .tag:nth-child(3) {
     -webkit-animation-delay:1s;
 }
-
 .tag:nth-child(4) {
     -webkit-animation-delay:1.5s;
 }
-
 .tag:nth-child(5) {
     -webkit-animation-delay:2s;
 }
-
-
 .one,
 .two,
 .three,
@@ -214,78 +180,76 @@
     position:absolute;
     top:0;
     left:0;
-    width:40px;
-    height:40px;
+    width: 160px;
+    height: 160px;
     opacity:0.50;
-    line-height:40px;
+    line-height:140px;
     text-align:center;
     color:#fff;
     -webkit-transition: all 1s ease-in-out;
 }
-
 .one {
     background: #000000;
-    -webkit-transform:translateZ(20px);
+    -webkit-transform:translateZ(80px);
 }
 
 .two {
     background: #a30000;
-    -webkit-transform: rotateX(90deg) translateY(0) translateZ(-20px);
+    -webkit-transform: rotateX(90deg) translateY(0) translateZ(-80px);
 }
 
 .three {
     background:blue;
-    -webkit-transform: translateY(0) translateZ(-20px);
+    -webkit-transform: translateY(0) translateZ(-80px);
 }
 .four {
     background:green;
-    -webkit-transform: rotateX(90deg) translateY(0) translateZ(20px);
+    -webkit-transform: rotateX(90deg) translateY(0) translateZ(80px);
 }
 .five {
     background:darkblue;
-    -webkit-transform: rotateY(-90deg) translateX(0) translateY(0) translateZ(20px);
+    -webkit-transform: rotateY(-90deg) translateX(0) translateY(0) translateZ(80px);
 }
 .six {
     background:purple;
-    -webkit-transform: rotateY(90deg) translateX(0) translateZ(20px) translateY(0);
+    -webkit-transform: rotateY(90deg) translateX(0) translateZ(80px) translateY(0);
 }
-
 .logo:hover .box {
     background:gray;
     opacity:0.25;
 }
 .logo:hover .one{
-    -webkit-transform: rotateX(90deg) translateZ(20px) translateY(40px);
+    -webkit-transform: rotateX(90deg) translateZ(80px) translateY(160px);
     -webkit-transform-origin: 100%;
 }
 .logo:hover .two{
-    -webkit-transform: rotateX(90deg) translateY(0) translateZ(20px);
+    -webkit-transform: rotateX(90deg) translateY(0) translateZ(80px);
     opacity:1;
 }
 .logo:hover .three {
-    -webkit-transform: rotateX(-90deg) translateY(40px) translateZ(-20px);
+    -webkit-transform: rotateX(-90deg) translateY(160px) translateZ(-80px);
 }
 .logo:hover .five {
-    -webkit-transform: rotateZ(90deg) rotateY(-90deg) translateX(0) translateY(40px) translateZ(20px);
+    -webkit-transform: rotateZ(90deg) rotateY(-90deg) translateX(0) translateY(160px) translateZ(80px);
 }
 .logo:hover .six{
-    -webkit-transform: rotateY(90deg) translateX(20px) translateZ(20px) translateY(-20px) rotateX(90deg);
+    -webkit-transform: rotateY(90deg) translateX(80px) translateZ(80px) translateY(-80px) rotateX(90deg);
     -webkit-transform-origin: 100%;
 }
 
 .logo:hover .boxes {
-    top:40px;
+    top:80px;
 }
 
-.logo:hover .va {
-    top:-105px;
+.logo:hover .aa {
+    top:-250px;
 }
 .logo:hover .tags {
     -webkit-transform-style: preserve-3d;
     -webkit-transform-origin:50%;
     -webkit-transform:  rotateX(-200deg) rotateY(-180deg) rotateZ(-180deg);
-    top:130px;
-    left:315px;
+    top: 220px;
+    left: 350px;
     opacity:1;
 }
 
@@ -322,7 +286,7 @@
     }
     100% {
         opacity:0;
-        top:-70px;
+        top:-140px;
     }
 }
                             </pre>
@@ -355,7 +319,7 @@
     },
     {
         "name": "jQuery",
-        "value": 3
+        "value": 5
     },
     {
         "name": "Node.js",
@@ -405,7 +369,6 @@
                     </div>
                 </div>
                 <div class="content-about content-view-2 invisible" id="about">
-                    <!--<div>Здесь будет о себе</div>-->
                     <div class="about-inline about-love">
                         <h1>Что я люблю</h1>
                         <table>
@@ -485,10 +448,7 @@
                     </div>
                 </div>
                 <div class="content-contact content-view invisible" id="contact">
-                    <!--<div>Здесь будут контакты</div>-->
-
                     <div class="contact-body">
-
                         <a href="https://www.facebook.com/gusssar">
                             <img src="./img/svg/facebook.svg" class="fb"></a>
                         <a href="https://github.com/gusssar">
@@ -509,10 +469,6 @@
                 </div>
             </div>
         </div>
-        <div class="footer"></div>
     </div>
-
-
-
 </body>
 </html>

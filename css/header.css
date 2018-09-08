@@ -4,14 +4,12 @@
     top: 0;
     width: 100%;
     opacity: 1;
-    //overflow: hidden;
 }
 .header-nav{
     max-width: 1366px;
     min-width: 910px;
     margin: 0 auto;
     background: #004f50;
-    //background: #72428b;
 }
 .header-nav ul{
     margin: 0;
@@ -22,18 +20,14 @@
     white-space: nowrap;
     width: 14.19%;
     margin-right: -5px;
-    //padding: 15px 0;
     text-align: center;
 }
 
 .header-nav a{
-    /*font-size: 18px;*/
-    //font-size: 1.3vw;
     font-size: 100%;
     max-font-size: 18px;
     color: #ecf7fa;
     text-decoration: none;
-    //padding: 20px 45px;
     padding: 20px 10px;
 }
 .header-nav a:first-child{
@@ -52,7 +46,6 @@
     top: 0;
     height: 0;
 }
-/**доработать лого*/
 
 .logo_alex{
     height: 52px;
@@ -61,26 +54,13 @@
 
 .logo_alex a{
     position: relative;
-    //background-image: url('../jpg/logo_386x52.jpg');
-    //background-position: 0 0;
-    //background: url("../img/jpg/logo_386x52.jpg") no-repeat 0 0;
     background: url("../img/icons/favicon_32x32.png") no-repeat 100px 15px;
     width: 193px;
     height: 52px;
-    //margin: 0px 0 -20px;
     display: block;
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
     -ms-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
     transition: all 0.5s ease;
-}
-
-.logo_alex a:hover {
-    /*background-position: -193px 0;*/
-    /*-webkit-transition: all 0.5s ease;*/
-    /*-moz-transition: all 0.5s ease;*/
-    /*-ms-transition: all 0.5s ease;*/
-    /*-o-transition: all 0.5s ease;*/
-    /*transition: all 0.5s ease;*/
 }

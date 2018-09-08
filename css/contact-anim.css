@@ -1,9 +1,5 @@
 .mail-anim {
-    /*position: absolute;*/
-    /*top: 30%;*/
-    /*left: 30%;*/
-    /*width: 40%;*/
-    /*height: 40%;*/
+
     animation: 5s linear 0s normal none infinite running mail-anim;
 }
 
@@ -25,18 +21,6 @@
     }
 
 }
-/*.fb,*/
-/*.gh,*/
-/*.gh,*/
-/*.st,*/
-/*.tw,*/
-/*.vk{*/
-    /*position: absolute;*/
-    /*top: 40%;*/
-    /*left: 40%;*/
-    /*width: 20%;*/
-    /*height: 20%;*/
-/*}*/
 
 .fb-anim{
     animation: 10s linear 2s normal none infinite running fb-anim;

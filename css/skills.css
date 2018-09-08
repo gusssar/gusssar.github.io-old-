@@ -6,17 +6,6 @@
     padding: 10vh 0 0;
 }
 
-/*.content-skills  div {*/
-    /*display: inline-block;*/
-/*}*/
-
-/*.content-skills  div:first-child{*/
-    /*width: 80vw;*/
-/*}*/
-
-/*.content-skills  div:last-child{*/
-    /*width: 10vw;*/
-/*}*/
 
 .skills-body{
     display: inline-block;
@@ -30,13 +19,9 @@
     font-size: 18px;
 }
 .skills-canvas{
-    //float: left;
     position: relative;
     margin: 0 -10vw 0 -20vw;
-    //width: 50vw !important;
-    //height: 50vh !important;
-    /*width: 50px !important;*/
-    /*height: 50px !important;*/
+
 }
 .skills-info{
     float: right;
@@ -45,35 +30,15 @@
     width: 20vw;
     margin: -30px 0 -100px -100px;
     height: 70vh;
-
-    //border: 1px solid crimson;
     border-radius: 5px;
-
     font-family: "Fira Code";
     color: #000000;
-    //background: rgba(33, 22, 46, 0.78);
     font-size: 14px;
     text-align: left;
     padding: 10px;
     overflow: hidden;
-
 }
-
-/*.content-skills-to-works{*/
-    /*position: absolute;*/
-    /*bottom: 3vh;*/
-    /*margin: 0 auto;*/
-    /*right: 0;*/
-    /*left: 0;*/
-/*}*/
-/*.content-skills-to-works a{*/
-    /*text-decoration: none;*/
-    /*color: antiquewhite;*/
-    /*padding: 20px 10px;*/
-/*}*/
-
 #myChart{
     width: 50vw !important;
     height: 50vh !important;
-    //margin: 0 -10vw 0 -10vw;
 }
