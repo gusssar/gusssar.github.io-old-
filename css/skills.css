@@ -59,18 +59,18 @@
 
 }
 
-.content-skills-to-works{
-    position: absolute;
-    bottom: 3vh;
-    margin: 0 auto;
-    right: 0;
-    left: 0;
-}
-.content-skills-to-works a{
-    text-decoration: none;
-    color: antiquewhite;
-    padding: 20px 10px;
-}
+/*.content-skills-to-works{*/
+    /*position: absolute;*/
+    /*bottom: 3vh;*/
+    /*margin: 0 auto;*/
+    /*right: 0;*/
+    /*left: 0;*/
+/*}*/
+/*.content-skills-to-works a{*/
+    /*text-decoration: none;*/
+    /*color: antiquewhite;*/
+    /*padding: 20px 10px;*/
+/*}*/
 
 #myChart{
     width: 50vw !important;

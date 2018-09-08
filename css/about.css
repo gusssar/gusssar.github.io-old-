@@ -63,16 +63,16 @@ table{
     //border: 1px solid crimson;
 }
 
-.content-about-to-contact{
-    position: absolute;
-    bottom: 3vh;
-    margin: 0 auto;
-    right: 0;
-    left: 0;
-}
-.content-about-to-contact a{
-    text-decoration: none;
-    color: antiquewhite;
-    padding: 20px 10px;
-}
+/*.content-about-to-contact{*/
+    /*position: absolute;*/
+    /*bottom: 3vh;*/
+    /*margin: 0 auto;*/
+    /*right: 0;*/
+    /*left: 0;*/
+/*}*/
+/*.content-about-to-contact a{*/
+    /*text-decoration: none;*/
+    /*color: antiquewhite;*/
+    /*padding: 20px 10px;*/
+/*}*/
 

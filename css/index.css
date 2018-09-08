@@ -31,3 +31,38 @@ body,
 .visible{
     opacity:1;
 }
+
+.watermark{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    //transform: rotate(-45deg);
+    font-size: 80px;
+    z-index: -1;
+    opacity: 0.1;
+    //overflow: hidden;
+}
+
+.next-link{
+    position: absolute;
+    bottom: 3vh;
+    margin: 0 auto;
+    right: 0;
+    left: 0;
+
+}
+
+.next-link a{
+    text-decoration: none;
+    //color: antiquewhite;
+    color: rgba(250,235,215,0.3);
+    padding: 20px 42px;
+    //background: url("../img/png/down-arrow.png") no-repeat 0 13px;
+}
+.next-link a:hover{
+    background: url("../img/png/down-arrow.png") no-repeat 0 13px;
+    color: rgba(250,235,215,1);
+}
+#id-nav-hello-2 a:hover{
+    background: url("../img/png/up-arrow.png") no-repeat 0 13px;
+}

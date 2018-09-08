@@ -281,15 +281,15 @@
 }
 
 
-.content-intro-to-skills{
-    position: absolute;
-    bottom: 3vh;
-    margin: 0 auto;
-    right: 0;
-    left: 0;
-}
-.content-intro-to-skills a{
-    text-decoration: none;
-    color: antiquewhite;
-    padding: 20px 10px;
-}
+/*.content-intro-to-skills{*/
+    /*!*position: absolute;*!*/
+    /*!*bottom: 3vh;*!*/
+    /*!*margin: 0 auto;*!*/
+    /*!*right: 0;*!*/
+    /*!*left: 0;*!*/
+/*}*/
+/*.content-intro-to-skills a{*/
+    /*text-decoration: none;*/
+    /*color: antiquewhite;*/
+    /*padding: 20px 10px;*/
+/*}*/
