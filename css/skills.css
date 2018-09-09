@@ -39,6 +39,6 @@
     overflow: hidden;
 }
 #myChart{
-    width: 50vw !important;
-    height: 50vh !important;
+    width: 900px !important;
+    height: 450px !important;
 }

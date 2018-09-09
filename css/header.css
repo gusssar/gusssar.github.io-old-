@@ -28,10 +28,7 @@
     max-font-size: 18px;
     color: #ecf7fa;
     text-decoration: none;
-    padding: 20px 10px;
-}
-.header-nav a:first-child{
-    padding: 0;
+    padding: 20px 50px;
 }
 .head-link{
     padding: 15px 0;
@@ -58,6 +55,7 @@
     width: 193px;
     height: 52px;
     display: block;
+    padding: 0;
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
     -ms-transition: all 0.5s ease;
