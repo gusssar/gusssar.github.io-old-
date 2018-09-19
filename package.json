@@ -1,6 +1,6 @@
 {
   "name": "presentation",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "first presintation page",
   "main": "index.js",
   "dependencies": {
